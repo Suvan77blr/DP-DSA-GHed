@@ -1,0 +1,47 @@
+
+// DP Basics - CN:TOTD.
+
+-> Intro to DP :-
+
+* Dp - a technique for efficient solving of Optimization problems.
+
+* Large Problem -> Smaller Overlapping Subproblems.
+* Each sub-prob is solved only once.
+* Results of sub-probs are stored to avoid redundant computations.
+
+* Key Steps in DP :-
+
+	1) Id the subprobs and their Rships and understand how the optimal soln can be constructed from them.
+
+	2) Define the recursive rship.
+
+	3) Id the overlapping subprobs.
+
+	4) Choose a suitable approach b/w Memo or Tabu.
+		
+		Memo ~ Recursive way of solving & storing the results of subprobs in a memo-table. => Top-down approach.
+	
+		Tabu - Iterative solving & filling up a table / array from the smaller to the larger subproblem.
+
+	5) Applying the chosen approach. => handling the base cases, dfining the necessary data structures & the main logic to solve the problem.
+
+	6) Analysing the TC and SC.
+
+
+-> Advs of DP :-
+
+* Guarantees Optimal solution by systematically considering all the solutions and then selecting the best one.
+* Efficient.
+* Use of caching computed results & avoiding recomputation.
+* Problem Simplification.
+* Can be applied to a wide range of domains.
+
+-> Dis-advs of DP :-
+
+* Needs overlapping subproblems & this is quite challenging to id them.
+* Needs problems to have optimal substructure => an optimal solution to the problem must be achievable by the solns of its subproblems.
+* May have high computational complexity.
+* Designing appropriate recursive rship and formulating the problem as a seq of subproblems can be challenging.
+* Tabu can consume substantial memory.
+
+
