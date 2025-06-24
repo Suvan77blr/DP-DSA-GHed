@@ -1,4 +1,4 @@
-// 2400625
+// 240625
 /*
     Frog Jump:
         - Frog on the 1st Step of 'N' stairs.
