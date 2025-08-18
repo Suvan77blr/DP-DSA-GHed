@@ -1,6 +1,5 @@
 
-
-*.exe
-
 input.txt
 output.txt
+
+*.exe
